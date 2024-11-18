@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:#efefef;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    /* align-items: center; */
+     flex-direction: column;
+    background-image: url("./cartoon-cloud-sky-background-1.jpg");
+    object-fit:fill;
+}
+h1{
+    margin-left: 35vw;
+    margin-top: 70px;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+#Main-container{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{   
+     width: 50%;
+     height: 70px;
+     display: flex;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.281);
+     border-bottom-right-radius: 15px;
+}
+#container input{
+    height: inherit;
+   width: 85%; 
+   outline: none;
+   border: none;
+   font-size: 23px;
+   padding-left: 15px;
+   opacity: 60%;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+
+}
+#container input::placeholder{
+    font-size: 23px;
+    padding-left: 15px;
+}
+button{
+    height: inherit;
+    width:15% ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 255, 0.45);
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+button:hover{
+    background-color: rgba(0, 0, 255, 0.29);
+}
